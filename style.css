@@ -1591,14 +1591,13 @@ input[type="number"]::-webkit-inner-spin-button {
   color: #fff;
 }
 
-
-
 .footer-grid {
   display: grid;
   align-items: center;
   justify-content: center;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  padding-top: 8rem;
 }
 
 .footer-title,
@@ -1607,6 +1606,7 @@ input[type="number"]::-webkit-inner-spin-button {
   text-align: center;
  
 }
+
 #backtoTop{
   position :fixed;
   bottom: 90px;
